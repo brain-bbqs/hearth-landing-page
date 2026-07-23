@@ -1,0 +1,17 @@
+{
+  "name": "hearth-landing-page",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The main landing page for the HEARTH data ecosystem.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "vite": "^5.4.10"
+  }
+}
