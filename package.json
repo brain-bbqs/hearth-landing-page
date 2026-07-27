@@ -2,7 +2,7 @@
   "name": "hearth-landing-page",
   "version": "1.0.0",
   "private": true,
-  "description": "The main landing page for the HEARTH data ecosystem — a hub linking to the HEARTH suite of apps.",
+  "description": "The main landing page for the HEARTH data ecosystem.",
   "type": "module",
   "scripts": {
     "dev": "vite --config configs/vite.config.js",
