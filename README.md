@@ -1,6 +1,6 @@
 # HEARTH Landing Page
 
-The main landing page for the HEARTH (Hub for Exploratory Analysis, Resource-sharing, Testing, and Hypothesis-generation) ecosystem.
+The main landing page for the **HEARTH** (**H**ub for **E**xploratory **A**nalysis, **R**esource-sharing, **T**esting, and **H**ypothesis-generation) ecosystem.
 
 Currently a "coming soon" placeholder, built with [Vite](https://vitejs.dev/)
 and deployed to GitHub Pages.
