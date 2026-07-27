@@ -1,4 +1,4 @@
-import uploadLogo from "./assets/logos/upload.svg";
+import uploadLogo from "./assets/bbqs-uploader-logo.svg";
 
 export interface AppInfo {
   id: string;

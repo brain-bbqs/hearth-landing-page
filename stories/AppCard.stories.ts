@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/html-vite";
 import { createAppCard } from "../src/components/app-card";
 import type { AppInfo } from "../src/apps";
-import uploadLogo from "../src/assets/logos/upload.svg";
+import uploadLogo from "../src/assets/bbqs-uploader-logo.svg";
 
 const meta: Meta<AppInfo> = {
   title: "Components/AppCard",
