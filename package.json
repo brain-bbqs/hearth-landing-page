@@ -1,17 +1,27 @@
 {
   "name": "hearth-landing-page",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "description": "The main landing page for the HEARTH data ecosystem.",
+  "description": "The main landing page for the HEARTH data ecosystem — a hub linking to the HEARTH suite of apps.",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "format": "prettier --write ."
+    "dev": "vite --config configs/vite.config.js",
+    "build": "vite build --config configs/vite.config.js",
+    "preview": "vite preview --config configs/vite.config.js",
+    "format": "prettier --config configs/prettier.config.cjs --write .",
+    "format:check": "prettier --config configs/prettier.config.cjs --check .",
+    "typecheck": "tsc --noEmit --project configs/tsconfig.json",
+    "test:e2e": "playwright test --config configs/playwright.config.js",
+    "storybook": "storybook dev -p 6006 --config-dir configs/storybook",
+    "build-storybook": "storybook build --config-dir configs/storybook"
   },
   "devDependencies": {
-    "prettier": "^3.3.3",
+    "@playwright/test": "^1.61.1",
+    "@storybook/html-vite": "^10.5.3",
+    "@types/node": "^26.1.1",
+    "prettier": "^3.9.6",
+    "storybook": "^10.3.6",
+    "typescript": "^6.0.3",
     "vite": "^8.1.5"
   }
 }
