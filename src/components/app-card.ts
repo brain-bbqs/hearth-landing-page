@@ -43,6 +43,13 @@ export function createAppCard(app: AppInfo): HTMLElement {
     body.append(badge);
   }
 
+  if (app.note) {
+    const note = document.createElement("span");
+    note.className = "app-card__note";
+    note.textContent = app.note;
+    body.append(note);
+  }
+
   card.append(logo, body);
   return card;
 }

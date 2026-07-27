@@ -7,15 +7,17 @@ export interface AppInfo {
   url: string;
   logo: string;
   status: "live" | "coming-soon";
+  note?: string;
 }
 
 export const apps: AppInfo[] = [
   {
     id: "upload",
     name: "Upload",
-    description: "Upload and manage data files for the HEARTH data ecosystem.",
+    description: "Upload data files for the HEARTH data ecosystem.",
     url: "https://upload.brain-bbqs.org",
     logo: uploadLogo,
     status: "live",
+    note: "BBQS members only",
   },
 ];
