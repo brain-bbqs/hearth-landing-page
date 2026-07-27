@@ -1,5 +1,12 @@
 # Build & Deployment
 
+## Development
+
+```sh
+npm install
+npm run dev
+```
+
 ## Build
 
 ```sh
