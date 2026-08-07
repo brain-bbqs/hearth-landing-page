@@ -155,3 +155,60 @@ h1 {
   font-size: 0.75rem;
   font-weight: 600;
 }
+
+.consent-banner {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(760px, calc(100% - 32px));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 14px;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 0.25);
+  z-index: 30;
+}
+
+.consent-banner[hidden] {
+  display: none;
+}
+
+.consent-banner-text {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9em;
+}
+
+.consent-banner-actions {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.consent-banner-actions button {
+  padding: 0.4rem 0.9rem;
+  border-radius: 8px;
+  border: 1px solid var(--card-border);
+  background: transparent;
+  color: var(--fg);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.consent-banner-actions button.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+@media (max-width: 700px) {
+  .consent-banner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
