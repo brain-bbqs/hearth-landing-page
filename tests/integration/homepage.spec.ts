@@ -18,4 +18,26 @@ test.describe("HEARTH homepage", () => {
     );
     await expect(uploadCard).toHaveAttribute("target", "_blank");
   });
+
+  test("links to the Clip Extractor app", async ({ page }) => {
+    await page.goto("/");
+    const clipCard = page.getByRole("link", { name: /clip extractor/i });
+    await expect(clipCard).toBeVisible();
+    await expect(clipCard).toHaveAttribute(
+      "href",
+      "https://clip-extractor.brain-bbqs.org",
+    );
+    await expect(clipCard).toHaveAttribute("target", "_blank");
+  });
+
+  test("links to the Encoding Helper app", async ({ page }) => {
+    await page.goto("/");
+    const encodingCard = page.getByRole("link", { name: /encoding helper/i });
+    await expect(encodingCard).toBeVisible();
+    await expect(encodingCard).toHaveAttribute(
+      "href",
+      "https://encoding-helper.brain-bbqs.org",
+    );
+    await expect(encodingCard).toHaveAttribute("target", "_blank");
+  });
 });

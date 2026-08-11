@@ -74,12 +74,14 @@ h1 {
 .app-grid {
   width: 100%;
   max-width: 64rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1.25rem;
 }
 
 .app-card {
+  flex: 0 1 16rem;
   aspect-ratio: 1 / 1;
   display: flex;
   flex-direction: column;
