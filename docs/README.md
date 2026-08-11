@@ -11,7 +11,7 @@ npm run dev
 
 App cards are declared in [`src/apps.ts`](../src/apps.ts). To add a new app,
 append an entry with its name, description, target URL, and a logo (an SVG
-or PNG placed under `src/assets/logos/`).
+or PNG placed under `src/assets/`).
 
 ## Type checking
 
