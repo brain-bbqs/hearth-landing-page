@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src/assets/hearth-logo-with-title.png" alt="HEARTH" width="320" />
+  <img src="src/assets/hearth-logo.svg" alt="HEARTH" width="320">
 </p>
 
 # HEARTH Landing Page
