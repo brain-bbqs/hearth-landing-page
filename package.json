@@ -20,8 +20,8 @@
     "@storybook/html-vite": "^10.5.10",
     "@types/node": "^26.1.1",
     "prettier": "^3.9.6",
-    "storybook": "^10.3.6",
+    "storybook": "^10.5.10",
     "typescript": "^6.0.3",
-    "vite": "^8.1.5"
+    "vite": "^8.2.2"
   }
 }
