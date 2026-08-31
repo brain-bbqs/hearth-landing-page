@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 252" width="400" height="504">
+
+<rect x="30" y="165" width="140" height="12" rx="6" fill="#82796a"></rect>
+<rect x="22" y="180" width="156" height="9" rx="4.5" fill="#c0b6a5"></rect>
+<rect x="42" y="148" width="28" height="14" rx="3.5" fill="#b2622d"></rect>
+<rect x="42" y="131" width="12.5" height="14" rx="3.5" fill="#8c491a"></rect>
+<rect x="57.5" y="131" width="12.5" height="14" rx="3.5" fill="#b2622d"></rect>
+<rect x="42" y="114" width="28" height="14" rx="3.5" fill="#d67f48"></rect>
+<rect x="42" y="97" width="12.5" height="14" rx="3.5" fill="#b2622d"></rect>
+<rect x="57.5" y="97" width="12.5" height="14" rx="3.5" fill="#8c491a"></rect>
+<rect x="130" y="148" width="28" height="14" rx="3.5" fill="#8c491a"></rect>
+<rect x="130" y="131" width="12.5" height="14" rx="3.5" fill="#b2622d"></rect>
+<rect x="145.5" y="131" width="12.5" height="14" rx="3.5" fill="#d67f48"></rect>
+<rect x="130" y="114" width="28" height="14" rx="3.5" fill="#b2622d"></rect>
+<rect x="130" y="97" width="12.5" height="14" rx="3.5" fill="#d67f48"></rect>
+<rect x="145.5" y="97" width="12.5" height="14" rx="3.5" fill="#b2622d"></rect>
+<path d="M56,97 A44,44 0 0 1 144,97" stroke="#b2622d" stroke-width="28" fill="none"></path>
+<path d="M90.7,68.5 A30,30 0 0 1 109.3,68.5 L117.9,41.8 A58,58 0 0 0 82.1,41.8 Z" fill="#8c491a"></path>
+<line x1="123.5" y1="79.9" x2="147.7" y2="62.3" stroke="#f5ead8" stroke-width="3.5"></line>
+<line x1="109" y1="69.4" x2="118.2" y2="40.9" stroke="#f5ead8" stroke-width="3.5"></line>
+<line x1="91" y1="69.4" x2="81.8" y2="40.9" stroke="#f5ead8" stroke-width="3.5"></line>
+<line x1="76.5" y1="79.9" x2="52.3" y2="62.3" stroke="#f5ead8" stroke-width="3.5"></line>
+<image x="70" y="96" width="60" height="66" preserveAspectRatio="xMidYMid meet"></image>
+<text x="102" y="236" text-anchor="middle" font-family="Figtree, 'Segoe UI', sans-serif" font-weight="700" font-size="30" letter-spacing="4.2" fill="#b2622d">HEARTH</text>
+</svg>
