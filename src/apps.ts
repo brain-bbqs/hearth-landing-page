@@ -16,7 +16,7 @@ export const apps: AppInfo[] = [
   {
     id: "upload",
     name: "Upload",
-    description: "Upload data files for the HEARTH data ecosystem.",
+    description: "Upload data files for the HEARTH data ecosystem",
     url: "https://upload.brain-bbqs.org",
     logo: uploadLogo,
     status: "live",
