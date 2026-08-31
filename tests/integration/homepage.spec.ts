@@ -3,9 +3,7 @@ import { test, expect } from "@playwright/test";
 test.describe("HEARTH homepage", () => {
   test("renders the HEARTH header", async ({ page }) => {
     await page.goto("/");
-    await expect(
-      page.getByRole("heading", { name: "HEARTH", level: 1 }),
-    ).toBeVisible();
+    await expect(page.getByRole("img", { name: "HEARTH" })).toBeVisible();
   });
 
   test("links to the Upload app", async ({ page }) => {
