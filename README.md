@@ -1,6 +1,5 @@
 <p align="center">
-  <img src="src/assets/hearth-logo.png#gh-light-mode-only" alt="HEARTH" width="320">
-  <img src="src/assets/hearth-logo-dark.png#gh-dark-mode-only" alt="HEARTH" width="320">
+  <img src="src/assets/hearth-logo.svg" alt="HEARTH" width="320">
 </p>
 
 # HEARTH Landing Page
