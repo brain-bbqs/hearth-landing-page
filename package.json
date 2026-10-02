@@ -18,7 +18,7 @@
   "devDependencies": {
     "@playwright/test": "^1.62.1",
     "@storybook/html-vite": "^10.6.0",
-    "@types/node": "^26.1.1",
+    "@types/node": "^26.6.3",
     "prettier": "^3.9.9",
     "storybook": "^10.6.0",
     "typescript": "^7.0.2",
